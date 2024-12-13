@@ -5,9 +5,10 @@ export default function App() {
   let names= ['ahmed','nada','momen','katty','reda','maged','sara'];   
   return (
     <>
-    {names.map((e,index)=>(
-      <Greating name={e[0].toUpperCase() + e.slice(1)} />
-    ))}
+
+   <Greating age={23} > 
+  <h3>hello, world!</h3>  {/* this is called a children*/}
+   </Greating>
     </>
   )
 }

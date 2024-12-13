@@ -1,10 +1,13 @@
 import React from 'react'
 
-export default function Greating({children,age}) {
+export default function Greating({keyA , msg}) {
   return (
     <div>
-      {children}
-      <h2>age : {age}</h2> {/*it's a huge impact for sure */}
+      <ul>
+        <li>super popular js library</li>
+        <li>will help me be more hireable</li>
+        <li>react has a pretty logo!</li>
+      </ul>
     </div>
   )
 }
